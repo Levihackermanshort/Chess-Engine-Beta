@@ -1,0 +1,11 @@
+[build]
+  command = "pip install -r requirements.txt && PYTHONPATH=$PYTHONPATH:. python -m gunicorn backend.app:app"
+  publish = "frontend/build"
+
+[functions]
+  [functions.python]
+    version = "3.11"
+
+[build.environment]
+  FLASK_APP = "backend.app"
+  FLASK_ENV = "production"
