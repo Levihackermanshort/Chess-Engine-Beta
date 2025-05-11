@@ -1,6 +1,7 @@
 # Chess Engine
 
-![Uploading Chess Engine Web May 11, 2025, 04_49_29 PM.png…]()
+![Chess Engine Web May 11, 2025, 04_49_29 PM](https://github.com/user-attachments/assets/c41781b0-0ec5-4107-be53-0aa87009caff)
+
 
 A modern web-based chess application featuring an AI-powered chess engine, interactive tutorials, and user authentication.
 
